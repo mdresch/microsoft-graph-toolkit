@@ -157,12 +157,11 @@ export class CacheService {
 
   private static cacheConfig: CacheConfig = {
     defaultInvalidationPeriod: 3600000,
-    isEnabled: false,
     groups: {
       invalidationPeriod: null,
       isEnabled: true
     },
-    isEnabled: true,
+    isEnabled: false,
     people: {
       invalidationPeriod: null,
       isEnabled: true
